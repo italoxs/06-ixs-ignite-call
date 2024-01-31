@@ -3,7 +3,7 @@ import { ArrowRight } from 'phosphor-react'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
-import { Form, FormAnotation } from './styles'
+import { Form, FormAnnotation } from './styles'
 import { useRouter } from 'next/router'
 
 const claimUsernameFormSchema = z.object({
@@ -51,13 +51,13 @@ export function ClaimUsernameForm() {
         </Button>
       </Form>
 
-      <FormAnotation>
+      <FormAnnotation>
         <Text size="sm">
           {errors.username
             ? errors.username.message
             : 'Digite o nome do usuário desejado'}
         </Text>
-      </FormAnotation>
+      </FormAnnotation>
     </>
   )
 }
