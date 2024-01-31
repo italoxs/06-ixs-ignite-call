@@ -1,9 +1,7 @@
 <h1 align="center">Ignite Call</h1>
 * Projeto construido para agendamentos de compromissos com integração com o Google Calendar(Agenda).
 * <a>https://is-ignite-call.vercel.app/<a>
-------------------------------
 
-------------------------------
 ## Ferramentas
 - React
 - Next.js
